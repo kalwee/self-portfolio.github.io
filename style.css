@@ -1,0 +1,90 @@
+body{
+    text-align: center;
+    background-image: url("images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    border: 2px solid white;
+    padding: 20px;
+    backdrop-filter: blur(5px);
+    
+}
+h1{
+    text-align: center;
+    font-family: Verdana;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white
+}
+img{
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border: 5px solid white;
+    padding: 4px;
+}
+h2{
+    text-align: center;
+}
+h2 a{
+    text-align: center;
+    text-decoration: none;
+    font-family: Arial;
+    color: white;
+}
+a:hover {
+    color: grey;
+    border: 2px solid transparent;
+    background-color: white;
+    border-radius: 8px;
+    text-decoration: none;
+}
+p{
+    text-indent: 50px;
+    text-align: justify;
+    font-size: 16px;
+    color: white
+}
+p:hover{
+    border-radius: 8px;
+}
+table {
+    color: white;
+    border-collapse: collapse;
+    border: 1px solid white;
+    text-align: center;
+    padding: 10spx;
+    width: 100%;
+}
+td{
+    border: 1px solid white;
+    padding: 8px;
+}
+h3{
+    text-align: left;
+    font-size: 15px;
+    font-weight: lighter;
+    color: black;
+    background: linear-gradient(135deg, rgb(205, 202, 202), rgba(192, 195, 196, 0.5) 100%);
+}
+ul{
+    text-align: left;
+    color: white;
+}
+h4{
+    color: black;
+    text-align: left;
+    background: linear-gradient(135deg, rgb(205, 202, 202), rgba(192, 195, 196, 0.5) 100%);
+}
+th{
+    background: linear-gradient(135deg, rgb(205, 202, 202), rgba(192, 195, 196, 0.5) 100%);
+    border: 1px solid white;
+    color: black;
+    padding: 8px;
+}
+ol{
+    text-align: left;
+    color: white;
+    font-family: Arial Font Family;
+}
